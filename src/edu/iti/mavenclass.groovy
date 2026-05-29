@@ -4,6 +4,6 @@ def install_mvn(commandOption){
     sh "mvn ${commandOption}"
 }
 
-def test_mvn(nanInput){
+def test_mvn(){
     sh "mvn test"
 }
